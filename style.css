@@ -27,3 +27,15 @@
 .modal-close{position:absolute;right:25px;top:12px;background:none;border:0;color:#fff;font-size:2.5rem;cursor:pointer}
 @media(max-width:850px){.certificate-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.certificate-grid{grid-template-columns:1fr}}
+
+/* Profile photograph */
+.about-profile{display:flex;align-items:flex-start;gap:24px}
+.about-profile img{width:150px;height:190px;object-fit:cover;object-position:center 25%;border:1px solid var(--line);border-radius:8px;flex:0 0 auto}
+.about-profile .large-copy{font-size:1.22rem}
+.certificate-link{display:block;text-decoration:none}
+.certificate-link:hover{transform:translateY(-4px);border-color:var(--accent)}
+@media(max-width:650px){.about-profile{flex-direction:column}.about-profile img{width:132px;height:166px}}
+
+/* HALOFALL media panel intentionally left blank until real gameplay and main-menu captures are ready. */
+.project-visual{min-height:280px}
+.project-visual .game-symbol{display:none}
