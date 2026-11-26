@@ -1,63 +1,30 @@
-MUHAMMAD DANIEL RAHMAN — PORTFOLIO
-===================================
+# Daniel's Portfolio Website
 
-UPLOAD
-------
-Upload the CONTENTS of this folder to the ROOT of the GitHub repository.
-Do not upload the enclosing folder as a nested folder.
-The root should contain:
-  index.html
-  style.css
-  script.js
-  assets/
+## Open locally
+1. Extract this ZIP folder.
+2. Open the `daniel-portfolio` folder in Visual Studio Code.
+3. Open `index.html` in your browser, or use the VS Code extension Live Server and click Go Live.
 
-GitHub Pages:
-  Repository > Settings > Pages
-  Build and deployment: Deploy from a branch
-  Branch: main
-  Folder: /(root)
+## Files
+- `index.html` — page content
+- `style.css` — design and responsive layout
+- `script.js` — mobile navigation and certificate image previews
+- `assets/` — resume PDF and certificate image files
 
-CONTENTS
---------
-- Redesigned responsive portfolio in dark navy, teal and violet.
-- Profile photograph in the hero.
-- About, technical skills, HALOFALL, credentials and contact sections.
-- ATS-friendly resume PDF and editable DOCX.
-- Visually designed resume PDF for direct sharing.
-- E-commerce / product-listing website project added, with client identity withheld.
-- Seven certificates: five KV-TRON, IBM SkillsBuild AI Fundamentals,
-  and AI National Online Quiz 2024 participation.
-- SKM Level 3 Computer Network Services shown as a separate professional
-  qualification, with preview and original PDF.
-- Original PDF documents are retained in assets/.
+## Certificate gallery
+Each certificate is displayed as an image. Visitors can click an image to enlarge it, then close it with the X button, by clicking outside it, or by pressing Escape.
 
-HALOFALL
---------
-The media panel is intentionally blank until actual gameplay footage and
-the main menu are ready. No concept art or fabricated gameplay visuals
-are included.
-
-QUALIFICATION
--------------
-The uploaded Malaysian Skills Certificate states:
-Computer Network Services — Level Three.
-This replaces the previous inaccurate "Computer Systems" wording.
-
-RESUME
-------
-Resume download buttons point to:
-  assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf
-  assets/Muhammad_Daniel_Rahman_ATS_Resume.docx
-  assets/Muhammad_Daniel_Rahman_Resume.pdf
+## Before publishing
+- Check every qualification and date for accuracy.
+- Add GitHub, LinkedIn, and project demo links only if you have them.
+- Add screenshots of HALOFALL if available.
+- The website shows only Hulu Langat, Selangor rather than your full home address.
 
 
 RESUME DOWNLOADS
-- assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf: ATS-friendly version for online applications.
-- assets/Muhammad_Daniel_Rahman_ATS_Resume.docx: editable ATS-friendly version.
-- assets/Muhammad_Daniel_Rahman_Resume.pdf: designed visual version for direct sharing.
-Keep the assets folder structure intact when publishing to GitHub Pages.
+- assets/Muhammad_Daniel_Rahman_Resume.pdf (designed resume)
+- assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf (ATS-friendly PDF)
+- assets/Muhammad_Daniel_Rahman_ATS_Resume.docx (editable ATS-friendly DOCX)
 
-LANGUAGE SUPPORT
-- English (UK) is the default language.
-- Use the EN / BM switch in the navigation to change to Bahasa Melayu (Malaysia).
-- The selected language is saved in the visitor's browser.
+The homepage includes direct download links for all three resume formats.
+For GitHub Pages, upload the contents of this daniel-portfolio folder to the repository root.
