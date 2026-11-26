@@ -45,3 +45,15 @@ RESUME
 ------
 The website download button points to the single current resume file in
 assets/Muhammad_Daniel_Rahman_Resume.pdf.
+
+
+RESUME DOWNLOADS
+- assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf: ATS-friendly version for online applications.
+- assets/Muhammad_Daniel_Rahman_ATS_Resume.docx: editable ATS-friendly version.
+- assets/Muhammad_Daniel_Rahman_Resume.pdf: designed visual version for direct sharing.
+Keep the assets folder structure intact when publishing to GitHub Pages.
+
+LANGUAGE SUPPORT
+- English (UK) is the default language.
+- Use the EN / BM switch in the navigation to change to Bahasa Melayu (Malaysia).
+- The selected language is saved in the visitor's browser.
