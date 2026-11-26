@@ -19,7 +19,7 @@ const modalImage = document.getElementById("modalImage");
 const modalTitle = document.getElementById("modalTitle");
 const modalClose = document.getElementById("modalClose");
 
-document.querySelectorAll(".certificate-card").forEach(card => {
+document.querySelectorAll(".certificate-card[data-image]").forEach(card => {
   card.addEventListener("click", () => {
     modalImage.src = card.dataset.image;
     modalTitle.textContent = card.dataset.title;

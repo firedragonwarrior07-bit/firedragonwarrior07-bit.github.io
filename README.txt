@@ -1,30 +1,31 @@
-# Daniel's Portfolio Website
+DANIEL RAHMAN PORTFOLIO
+-----------------------
+Upload the contents of this folder to the ROOT of the GitHub repository.
+Keep index.html, style.css, script.js, and the assets folder together.
 
-## Open locally
-1. Extract this ZIP folder.
-2. Open the `daniel-portfolio` folder in Visual Studio Code.
-3. Open `index.html` in your browser, or use the VS Code extension Live Server and click Go Live.
+GitHub Pages:
+Settings > Pages > Deploy from a branch > main > /(root)
 
-## Files
-- `index.html` — page content
-- `style.css` — design and responsive layout
-- `script.js` — mobile navigation and certificate image previews
-- `assets/` — resume PDF and certificate image files
+The resume PDF is stored at:
+assets/Muhammad_Daniel_Rahman_Resume.pdf
 
-## Certificate gallery
-Each certificate is displayed as an image. Visitors can click an image to enlarge it, then close it with the X button, by clicking outside it, or by pressing Escape.
+The IBM SkillsBuild certificate is available as a preview image and a full PDF:
+assets/certificate-ibm-ai-fundamentals.png
+assets/AI_Fundamentals_IBM_SkillsBuild.pdf
 
-## Before publishing
-- Check every qualification and date for accuracy.
-- Add GitHub, LinkedIn, and project demo links only if you have them.
-- Add screenshots of HALOFALL if available.
-- The website shows only Hulu Langat, Selangor rather than your full home address.
+HALOFALL currently uses a typographic placeholder because no real gameplay screenshot/video has been supplied yet.
+Replace it with genuine gameplay media when available.
 
+UPDATED PACKAGE CONTENTS
+- Seven certificates/learning records: KV-TRON Python, CNN, ANN, AI Tools, Large Language Model, IBM SkillsBuild AI Fundamentals, and AI National Online Quiz 2024.
+- SKM Level 3 – Computer Network Services is listed as a professional qualification with its PDF linked.
+- Resume downloads: designed PDF, ATS PDF, and editable ATS DOCX.
+- Replace repository contents with the contents of this folder, not the ZIP file itself.
 
-RESUME DOWNLOADS
-- assets/Muhammad_Daniel_Rahman_Resume.pdf (designed resume)
-- assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf (ATS-friendly PDF)
-- assets/Muhammad_Daniel_Rahman_ATS_Resume.docx (editable ATS-friendly DOCX)
-
-The homepage includes direct download links for all three resume formats.
-For GitHub Pages, upload the contents of this daniel-portfolio folder to the repository root.
+PORTFOLIO CONTENT UPDATE
+- Added the private-client e-commerce product listing website project.
+- Added LURELIGHT as an earlier 2D platformer project.
+- Added a Professional Strengths section.
+- Added GitHub and portfolio links in Contact.
+- Added a note that professional references are available upon request.
+- No unconfirmed checkout, payment gateway, or deployment features are claimed.
