@@ -168,3 +168,12 @@ footer b{color:var(--teal)}
 .language-toggle .lang-divider{color:#617087}
 @media(max-width:850px){nav{gap:18px}}
 @media(max-width:720px){.language-toggle{align-self:flex-start;margin:5px 0;padding:10px 13px}}
+
+/* Additional portfolio project */
+.secondary-project{margin-top:22px}
+.commerce-media{display:grid;place-items:center;background:radial-gradient(circle at 70% 25%,rgba(112,221,201,.16),transparent 35%),linear-gradient(145deg,#172b42,#0d1728)}
+.commerce-visual{width:78%;min-height:230px;border:1px solid #496079;border-radius:12px;background:rgba(10,20,34,.75);display:flex;flex-direction:column;justify-content:center;gap:14px;padding:26px;box-shadow:0 18px 50px rgba(0,0,0,.25)}
+.commerce-visual span{font:9px var(--mono);letter-spacing:.14em;color:var(--teal)}
+.commerce-visual strong{font-size:clamp(22px,3vw,34px);line-height:1.15;color:var(--text)}
+.commerce-visual small{font:9px var(--mono);color:var(--violet);letter-spacing:.08em}
+@media(max-width:650px){.commerce-media{min-height:220px}.commerce-visual{min-height:160px}}

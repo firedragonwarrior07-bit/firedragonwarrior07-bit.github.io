@@ -22,7 +22,9 @@ CONTENTS
 - Redesigned responsive portfolio in dark navy, teal and violet.
 - Profile photograph in the hero.
 - About, technical skills, HALOFALL, credentials and contact sections.
-- One resume PDF only: assets/Muhammad_Daniel_Rahman_Resume.pdf
+- ATS-friendly resume PDF and editable DOCX.
+- Visually designed resume PDF for direct sharing.
+- E-commerce / product-listing website project added, with client identity withheld.
 - Seven certificates: five KV-TRON, IBM SkillsBuild AI Fundamentals,
   and AI National Online Quiz 2024 participation.
 - SKM Level 3 Computer Network Services shown as a separate professional
@@ -43,8 +45,10 @@ This replaces the previous inaccurate "Computer Systems" wording.
 
 RESUME
 ------
-The website download button points to the single current resume file in
-assets/Muhammad_Daniel_Rahman_Resume.pdf.
+Resume download buttons point to:
+  assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf
+  assets/Muhammad_Daniel_Rahman_ATS_Resume.docx
+  assets/Muhammad_Daniel_Rahman_Resume.pdf
 
 
 RESUME DOWNLOADS
