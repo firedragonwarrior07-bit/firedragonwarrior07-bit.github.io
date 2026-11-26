@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="Muhammad Daniel Rahman — Information Technology student, developer, and creator of HALOFALL.">
+  <title>Muhammad Daniel Rahman — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="brand-mark">D</span><span>DANIEL<span class="brand-dot">.</span>R</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about" data-i18n="navAbout">About</a><a href="#skills" data-i18n="navSkills">Skills</a><a href="#projects" data-i18n="navProjects">Projects</a><a href="#certificates" data-i18n="navCredentials">Credentials</a><a href="#resume" data-i18n="navResume">Resume</a><button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language" aria-pressed="false"><span class="lang-active">EN</span><span class="lang-divider">/</span><span>BM</span></button><a class="nav-contact" href="#contact" data-i18n="navContact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> INFORMATION TECHNOLOGY STUDENT <span class="eyebrow-line"></span> MALAYSIA</div>
+        <p class="hero-kicker" data-i18n="heroKicker">Curious by nature. Technical by practice.</p>
+        <h1>Muhammad Daniel<br><span>Rahman.</span></h1>
+        <p class="hero-lead" data-i18n="heroLead">I like understanding how things work — then building something with what I learn.</p>
+        <p class="hero-text" data-i18n-html="heroText">An Information Technology diploma student exploring software development, computer systems, networking, AI and game development. Currently building <strong>HALOFALL</strong> with Unity and C#.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects" data-i18n-html="heroExplore">Explore my work <span>↘</span></a>
+          <a class="button secondary" href="#resume" data-i18n-html="heroResume">View resumes <span>↓</span></a>
+        </div>
+        <div class="hero-footnote" data-i18n-html="heroFootnote"><span class="mini-spark">✳</span> Learning by building, testing and breaking things (carefully).</div>
+      </div>
+      <div class="hero-side">
+        <div class="portrait-frame">
+          <div class="portrait-top"><span>PROFILE / 001</span><span class="live-mark">● ONLINE</span></div>
+          <img src="assets/daniel-profile.jpg" alt="Portrait of Muhammad Daniel Rahman">
+          <div class="portrait-caption"><strong>Daniel Rahman</strong><span>IT · Code · Game Development</span></div>
+        </div>
+        <div class="terminal-card">
+          <div class="terminal-top"><i></i><i></i><i></i><span>daniel@workspace:~</span></div>
+          <div class="terminal-body">
+            <p><b>$</b> interests --list</p>
+            <ul><li>Python / C#</li><li>Unity game development</li><li>AI &amp; machine learning</li><li>Computer systems &amp; networks</li></ul>
+            <p class="terminal-status"><span class="status-dot"></span> always learning</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-index"><span>01</span><span>PORTFOLIO / 2026</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowPerson">01 / THE PERSON</p><h2 data-i18n-html="aboutHeading">A little about me<span>.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-statement" data-i18n-html="aboutStatement">I’m interested in the <em>why</em> behind technology — not just making something work, but understanding how it works.</p>
+        <div class="about-details">
+          <p data-i18n="aboutBody">My studies and personal projects let me move between software, hardware, networking and creative development. I enjoy experimenting, troubleshooting and turning ideas into working projects.</p>
+          <div class="info-list">
+            <div class="info-row"><span>Currently studying</span><strong>Diploma in Information Technology</strong></div>
+            <div class="info-row"><span>Institution</span><strong>Kolej Vokasional Besut</strong></div>
+            <div class="info-row"><span>Expected completion</span><strong>February 2027</strong></div>
+            <div class="info-row"><span>Professional qualification</span><strong>SKM Level 3 · Computer Network Services</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="personal-strip"><span>WHAT I LIKE WORKING ON</span><div><b>01</b> Code &amp; logic</div><div><b>02</b> Systems &amp; networks</div><div><b>03</b> Games &amp; interactive worlds</div><div><b>04</b> AI experiments</div></div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowToolkit">02 / TOOLKIT</p><h2 data-i18n-html="skillsHeading">Things I work with<span>.</span></h2></div>
+      <p class="section-intro" data-i18n="skillsIntro">A practical skill set built through diploma coursework, personal practice and project development.</p>
+      <div class="skill-grid">
+        <article class="skill-card"><span class="skill-icon">⌘</span><span class="skill-number">01</span><h3>Programming &amp; Web</h3><p>Python, C#, HTML, CSS and programming fundamentals.</p><div class="skill-tags"><span>Python</span><span>C#</span><span>HTML</span><span>CSS</span></div></article>
+        <article class="skill-card"><span class="skill-icon">◈</span><span class="skill-number">02</span><h3>Game Development</h3><p>Unity Engine, 2D game development and gameplay programming.</p><div class="skill-tags"><span>Unity</span><span>2D</span><span>Tilemaps</span></div></article>
+        <article class="skill-card"><span class="skill-icon">✳</span><span class="skill-number">03</span><h3>AI &amp; Machine Learning</h3><p>AI/ML fundamentals, CNN, ANN and large language model concepts.</p><div class="skill-tags"><span>AI</span><span>CNN</span><span>ANN</span><span>LLM</span></div></article>
+        <article class="skill-card"><span class="skill-icon">⌁</span><span class="skill-number">04</span><h3>Systems &amp; Networking</h3><p>Computer hardware troubleshooting, networking, subnetting and Linux / Debian.</p><div class="skill-tags"><span>Hardware</span><span>Networking</span><span>Debian</span></div></article>
+        <article class="skill-card"><span class="skill-icon">▤</span><span class="skill-number">05</span><h3>Data &amp; Version Control</h3><p>SQL, MySQL, Git and GitHub for data and project workflow.</p><div class="skill-tags"><span>SQL</span><span>MySQL</span><span>Git</span><span>GitHub</span></div></article>
+      </div>
+      <p class="skill-disclaimer">I list tools and areas I have personally practised; proficiency continues to grow through hands-on work.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowBuild">03 / CURRENT BUILD</p><h2 data-i18n-html="projectsHeading">Project in progress<span>.</span></h2></div>
+      <article class="project-card">
+        <div class="project-media" aria-label="HALOFALL gameplay media will be added when available"></div>
+        <div class="project-content">
+          <div class="project-topline"><span class="eyebrow" data-i18n="projectCategory">FINAL YEAR ACADEMIC PROJECT</span><span class="project-state"><i></i> IN DEVELOPMENT</span></div>
+          <h3>HALOFALL<span>™</span></h3>
+          <p class="project-subtitle" data-i18n="projectSubtitle">A 2D top-down survival roguelite.</p>
+          <p data-i18n="projectBody">HALOFALL explores survival pressure through a central mechanic: the player’s halo represents both health and visibility. As it fades, the visible world shrinks — creating a constant trade-off between fighting and staying alive.</p>
+          <div class="project-facts"><div><span>ENGINE</span><strong>Unity</strong></div><div><span>LANGUAGE</span><strong>C#</strong></div><div><span>GENRE</span><strong>Survival / Bullet Hell</strong></div></div>
+          <ul><li>Player movement and core gameplay systems.</li><li>Unity Tilemaps and procedural arena generation.</li><li>C# debugging and iterative testing.</li></ul>
+          <span class="project-note" data-i18n="projectNote">Gameplay screenshots and main menu will be added after the build is ready.</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section credentials-section" id="certificates">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowLog">04 / LEARNING LOG</p><h2 data-i18n-html="credentialsHeading">Certificates &amp; credentials<span>.</span></h2></div>
+      <p class="section-intro" data-i18n="credentialsIntro">A record of completed learning and participation. Select any card to preview the certificate; use “Open PDF” for the original document.</p>
+      <div class="credential-label"><span data-i18n="completionLabel">COMPLETION CERTIFICATES</span><span>06 ITEMS</span></div>
+      <div class="certificate-grid">
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-kvtron-python.png" data-title="KV-TRON: Python Programming"><img src="assets/certificate-kvtron-python.png" alt="KV-TRON Python Programming certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>KV-TRON: Python Programming</strong><small>24 June 2026 · Jetson AI Box</small><a href="assets/KVTRON_Python_Programming.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-kvtron-cnn.png" data-title="KV-TRON: CNN"><img src="assets/certificate-kvtron-cnn.png" alt="KV-TRON CNN certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>KV-TRON: CNN</strong><small>22 July 2026 · Jetson AI Box</small><a href="assets/KVTRON_CNN.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-kvtron-ann.png" data-title="KV-TRON: ANN"><img src="assets/certificate-kvtron-ann.png" alt="KV-TRON ANN certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>KV-TRON: ANN</strong><small>7 July 2026 · Jetson AI Box</small><a href="assets/KVTRON_ANN.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-kvtron-ai-tools.png" data-title="KV-TRON: AI Tools"><img src="assets/certificate-kvtron-ai-tools.png" alt="KV-TRON AI Tools certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>KV-TRON: AI Tools</strong><small>3 August 2026 · Jetson AI Box</small><a href="assets/KVTRON_AI_Tools.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-kvtron-llm.png" data-title="Large Language Model – Key Concepts & Transformer"><img src="assets/certificate-kvtron-llm.png" alt="Large Language Model certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>Large Language Model – Key Concepts &amp; Transformer</strong><small>3 August 2026 · Jetson AI Box</small><a href="assets/KVTRON_Large_Language_Model.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-ibm-ai-fundamentals.png" data-title="IBM SkillsBuild: AI Fundamentals"><img src="assets/certificate-ibm-ai-fundamentals.png" alt="IBM SkillsBuild AI Fundamentals certificate"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>AI Fundamentals: Foundations for Understanding AI</strong><small>10 October 2026 · IBM SkillsBuild</small><a href="assets/IBM_AI_Fundamentals.pdf" target="_blank" rel="noopener">Open original PDF ↗</a><a class="verify-link" href="https://www.credly.com/go/68lnHc09" target="_blank" rel="noopener">Verify on Credly ↗</a></div></article>
+      </div>
+      <div class="credential-label participation-label"><span data-i18n="participationLabel">PARTICIPATION</span><span>01 ITEM</span></div>
+      <div class="certificate-grid participation-grid">
+        <article class="certificate-card"><button class="certificate-preview" data-image="assets/certificate-ai-national-quiz-2024.png" data-title="AI National Online Quiz 2024"><img src="assets/certificate-ai-national-quiz-2024.png" alt="AI National Online Quiz 2024 certificate of participation"><span class="preview-hint">VIEW PREVIEW ↗</span></button><div class="certificate-info"><strong>AI National Online Quiz 2024</strong><small>26 October 2024 · AI Labs / MyDigitalMaker (MDEC), supported by KPM</small><a href="assets/AI_National_Online_Quiz_2024_Participation.pdf" target="_blank" rel="noopener">Open original PDF ↗</a></div></article>
+      </div>
+      <div class="qualification-card">
+        <div class="qualification-seal">SKM<br><b>03</b></div>
+        <div class="qualification-copy"><span class="eyebrow" data-i18n="qualificationLabel">PROFESSIONAL QUALIFICATION</span><h3>Malaysian Skills Certificate (SKM) · Level 3</h3><p>Computer Network Services</p><small>Department of Skills Development, Malaysia · Accredited centre: Kolej Vokasional Besut, Terengganu</small><a href="assets/SKM_Level_3_Computer_Network_Services.pdf" target="_blank" rel="noopener">View official certificate ↗</a></div>
+        <button class="qualification-preview" data-image="assets/credential-skm-level-3.png" data-title="Malaysian Skills Certificate (SKM) Level 3 – Computer Network Services">Preview certificate ↗</button>
+      </div>
+    </section>
+
+
+    <section class="section resume-section" id="resume">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowResume">05 / RESUME</p><h2 data-i18n-html="resumeHeading">Choose the right version<span>.</span></h2></div>
+      <p class="section-intro" data-i18n="resumeIntro">Two formats are available. Use the ATS version for online job portals and application systems; use the designed version when sharing your portfolio directly.</p>
+      <div class="resume-grid">
+        <article class="resume-card resume-featured">
+          <span class="resume-label" data-i18n="atsLabel">BEST FOR ONLINE APPLICATIONS</span>
+          <h3 data-i18n="atsTitle">ATS-friendly resume</h3>
+          <p data-i18n="atsBody">Single-column layout with standard headings and selectable text. No photo, tables or decorative columns.</p>
+          <div class="resume-actions">
+            <a class="button primary" href="assets/Muhammad_Daniel_Rahman_ATS_Resume.pdf" download data-i18n-html="downloadPdf">Download PDF <span>↓</span></a>
+            <a class="text-download" href="assets/Muhammad_Daniel_Rahman_ATS_Resume.docx" download data-i18n="downloadDocx">Download editable DOCX ↗</a>
+          </div>
+        </article>
+        <article class="resume-card">
+          <span class="resume-label" data-i18n="designedLabel">BEST FOR DIRECT SHARING</span>
+          <h3 data-i18n="designedTitle">Designed resume</h3>
+          <p data-i18n="designedBody">A visual version that matches this portfolio. Better for direct email, networking and personal presentation than strict ATS parsing.</p>
+          <div class="resume-actions">
+            <a class="button secondary" href="assets/Muhammad_Daniel_Rahman_Resume.pdf" download data-i18n-html="downloadDesigned">Download designed PDF <span>↓</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="resume-note" data-i18n="resumeNote">The website itself is responsive. The downloadable resumes remain document files so employers can save, print and process them.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading"><p class="eyebrow" data-i18n="eyebrowContact">06 / SAY HELLO</p><h2 data-i18n-html="contactHeading">Have a project in mind?<span>.</span></h2></div>
+      <p class="contact-lead" data-i18n="contactLead">For internship opportunities, technical discussions or collaboration, feel free to reach out.</p>
+      <a class="email-link" href="mailto:firedragonwarrior07@gmail.com">firedragonwarrior07@gmail.com <span>↗</span></a>
+      <div class="contact-details"><a href="tel:+60123848607">+60 12-384 8607</a><span>Hulu Langat, Selangor, Malaysia</span><a href="https://github.com/firedragonwarrior07-bit" target="_blank" rel="noopener">GitHub profile ↗</a></div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Muhammad Daniel Rahman</span><span>Built with curiosity <b>✳</b> HTML · CSS · JavaScript</span></footer>
+
+  <div class="image-modal" id="imageModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Certificate preview">
+    <button class="modal-close" id="modalClose" aria-label="Close preview">×</button>
+    <p id="modalTitle"></p><img id="modalImage" src="" alt="Enlarged certificate preview">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
